@@ -33,7 +33,6 @@ const SignUp = () => {
     } finally {
       setIsSubmitting(false)
     }
-    createUser();
   }
   return (
     <SafeAreaView className="bg-primary h-full">
