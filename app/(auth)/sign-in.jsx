@@ -24,8 +24,6 @@ const SignIn = () => {
     try {
       await signIn(form.email, form.password)
 
-      // set it to global state
-
       router.replace('/home')
     } catch (error) {
       Alert.alert('Error', error.message)
